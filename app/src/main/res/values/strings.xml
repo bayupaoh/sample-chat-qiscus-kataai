@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">qiscus chat sdk</string>
+
+    <string name="facebook_app_id">1879532772347939</string>
+    <string name="fb_login_protocol_scheme">fb1879532772347939</string>
+
+    <string name="CONSUMER_KEY">jyq7Dm7nSgnlzkuxXRUMrc25Y</string>
+    <string name="CONSUMER_SECRET">rEMdTuZJiB478j81OmLarmV6oPZh31H0MyRIGVZ1WRSMPmzF3F</string>
+    <string name="txt_loading">Please Wait</string>
+    <string name="title_yes">Yes</string>
+    <string name="title_no">No</string>
+    <string name="txt_fragment_test">This is fragment sample</string>
+    <string name="txt_btn_fragment_sample">FRAGMENT</string>
+    <string name="title_ok">OK</string>
+    <string name="txt_global_errors">An occur errors..</string>
+    <string name="txt_empty_member">No member found</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>

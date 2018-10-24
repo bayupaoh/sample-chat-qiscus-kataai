@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.qiscus.mqtt:android-1.1.1-q1">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/android-1.1.1-q1.aar/6dc2072f5b2a88cb0e70becc0b3f0047/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/android-1.1.1-q1.aar/6dc2072f5b2a88cb0e70becc0b3f0047/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.qiscus.mqtt/android/1.1.1-q1/176764969d0ae2a3c02960affd40132580bddf78/android-1.1.1-q1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "898401888087",
+    "firebase_url": "https://suitcore-81d74.firebaseio.com",
+    "project_id": "suitcore-81d74",
+    "storage_bucket": "suitcore-81d74.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:898401888087:android:d7fe79e7a9c9d496",
+        "android_client_info": {
+          "package_name": "me.bayupaoh.qiscussdk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "898401888087-neafq23pc16dfprmmn404n7dhnmc3e6h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "me.bayupaoh.qiscussdk",
+            "certificate_hash": "76e26266b1c9358d7a27c9888314e11ce4d41cb1"
+          }
+        },
+        {
+          "client_id": "898401888087-k3oufl1otlro69erro6a16e48cj8acv5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "me.bayupaoh.qiscussdk",
+            "certificate_hash": "0cbadfa9c66016af8b09968bf64540dfa90afd6a"
+          }
+        },
+        {
+          "client_id": "898401888087-tpqokrn96nico2irun0glt2fodeq0ui6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxYNSlhm1buHIrjiA5fe-p3IH0iqQrWfg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "898401888087-tpqokrn96nico2irun0glt2fodeq0ui6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
