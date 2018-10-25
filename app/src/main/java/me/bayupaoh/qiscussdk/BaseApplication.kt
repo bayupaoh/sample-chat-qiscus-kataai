@@ -20,6 +20,10 @@ import com.twitter.sdk.android.core.TwitterConfig
 import io.realm.Realm
 import io.realm.RealmConfiguration
 import me.bayupaoh.qiscussdk.di.component.DaggerApplicationComponent
+import android.support.v4.content.ContextCompat
+import com.qiscus.sdk.data.model.QiscusReplyPanelConfig
+
+
 
 /**
  * Created by DODYDMW19 on 1/30/2018.
@@ -50,6 +54,30 @@ class BaseApplication : MultiDexApplication() {
 
         Qiscus.init(this, "testsuitc-uqchm2cjzyt")
         Qiscus.setEnableLog(BuildConfig.DEBUG)
+
+        Qiscus.getChatConfig()
+                .setStatusBarColor(R.color.colorPrimaryDark)
+                .setAppBarColor(R.color.colorPrimary)
+                .setLeftBubbleColor(R.color.colorPrimaryDark)
+                .setRightBubbleColor(R.color.colorPrimary)
+                .setRightBubbleTextColor(R.color.qiscus_white)
+                .setRightBubbleTimeColor(R.color.qiscus_white)
+                .setReadIconColor(R.color.colorAccent)
+                .setReplyBarColor(R.color.colorPrimary)
+                .setReplySenderColor(R.color.colorPrimary)
+                .setStartReplyInterceptor { comment -> QiscusReplyPanelConfig().setBarColor(ContextCompat.getColor(this, R.color.colorPrimary)) }
+                .setRoomReplyBarColorInterceptor { qiscusComment -> R.color.colorPrimary }
+//                .setEmptyRoomImageResource(R.drawable.ic_room_empty)
+                .setEnableFcmPushNotification(true)
+//                .setNotificationBigIcon(R.drawable.ic_logo_qiscus)
+//                .setNotificationSmallIcon(R.drawable.ic_logo_qiscus)
+                .setOnlyEnablePushNotificationOutsideChatRoom(true)
+                .setInlineReplyColor(R.color.colorPrimary)
+                .setEnableAddLocation(true)
+//                .setEmptyRoomTitleColor(R.color.orangeIcon)
+                .setAccentColor(R.color.colorAccent)
+                .deleteCommentConfig.isEnableDeleteComment = true
+
 
         // Initial Preferences
         SuitSave.init(applicationContext)
